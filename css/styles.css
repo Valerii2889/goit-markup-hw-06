@@ -737,6 +737,10 @@ address {
 	transition: outline var(--transition-color-function);
 }
 
+.form-subscription {
+	display: flex;
+}
+
 .subscription-form-input::placeholder {
 	font-size: 12px;
 	line-height: 2;
@@ -806,6 +810,8 @@ address {
 	width: 408px;
 	min-height: 576px;
 
+	padding: 72px 24px 24px;
+	
 	background-color: #fcfcfc;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
 	0px 1px 3px rgba(0, 0, 0, 0.12), 
